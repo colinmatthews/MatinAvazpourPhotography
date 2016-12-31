@@ -109,7 +109,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="container contact-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Connect on social Media</h2>
@@ -127,10 +127,57 @@
 				<!-- This is a comment -->
             </div>
         </div>
+		
+		<div class="row" style="padding-top:10px;">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sendMessage"  action="https://formspree.io/matin.avazpour@gmail.com" method="POST">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" name="name">
+                                
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" name="id" >
+                                
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" >
+                                
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message"></textarea>
+                           
+                            </div>
+                        </div>
+						<input type="text" name="_gotcha" style="display:none" />
+						<input type="hidden" name="_next" value="https://colinmatthews.github.io" />
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button  type="submit" class="btn btn-default btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+		
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+    <!--<div id="map"></div>
 
     <!-- Footer -->
     <footer>
@@ -147,13 +194,13 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+	
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0MxRy96T3Hkl4btgbVrLjWDoWUt4GMug&sensor=false"></script>
+   <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0MxRy96T3Hkl4btgbVrLjWDoWUt4GMug&sensor=false"></script>
 
-    
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
 
 </body>
 

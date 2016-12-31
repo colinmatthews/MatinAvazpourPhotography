@@ -249,6 +249,9 @@ a:focus {
   .download-section {
     padding: 100px 0;
   }
+  .contact-section{
+	  padding-top:80px;
+  }
 
   #map {
     height: 400px;
