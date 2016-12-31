@@ -235,6 +235,7 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+ 
 }
 #map {
   width: 100%;
@@ -250,7 +251,7 @@ a:focus {
     padding: 100px 0;
   }
   .contact-section{
-	  padding-top:80px;
+	  padding-top:79px;
   }
 
   #map {
